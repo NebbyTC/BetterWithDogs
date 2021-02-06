@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bone"
+    },
+
+    {
+      "item": "fluffy:slicedmieso"
+    },
+
+    {
+      "item": "fluffy:slicedmieso"
+    }
+  ],
+  "result":
+  {
+    "item": "fluffy:probu",
+    "count": 1
+  }
+}

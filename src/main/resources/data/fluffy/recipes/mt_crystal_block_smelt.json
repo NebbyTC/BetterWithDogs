@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "fluffy:mt_crystal_block"
+  },
+  "result": "fluffy:kgorski",
+  "experience": 1.0,
+  "cookingtime": 1700
+}

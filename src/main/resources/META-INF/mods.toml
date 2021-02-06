@@ -1,0 +1,47 @@
+
+modLoader="javafml" #mandatory
+
+loaderVersion="[31,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+
+issueTrackerURL="http://my.issue.tracker/" #optional
+
+[[mods]] 
+
+modId="fluffy" #mandatory
+
+version="1.16.1-1.0.0" #mandatory
+ 
+displayName="BetterWithDogs Mod" #mandatory
+
+updateJSONURL="https://www.youtube.com/channel/UCigwEoXS8NDzdtL4E-vD-AA?view_as=subscriber"
+
+displayURL="http://psiportal.com/" #optional
+
+logoFile="logobwd.png" #optional
+
+credits="JustStasiek (For Pug idea)" #optional
+
+authors="Nikodemis_(NebbyTC)"
+
+description='''
+This mod adds new dog races, and few new dog care things.
+'''
+# A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
+[[dependencies.examplemod]] #optional
+    # the modid of the dependency
+    modId="forge" #mandatory
+    # Does this dependency have to exist - if not, ordering below must be specified
+    mandatory=true #mandatory
+    # The version range of the dependency
+    versionRange="[31,)" #mandatory
+    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+    ordering="NONE"
+    # Side this dependency is applied on - BOTH, CLIENT or SERVER
+    side="BOTH"
+# Here's another dependency
+[[dependencies.examplemod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"

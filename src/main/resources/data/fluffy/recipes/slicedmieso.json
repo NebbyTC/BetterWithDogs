@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "fluffy:kawmiesa"
+    }
+
+  ],
+  "result":
+  {
+    "item": "fluffy:slicedmieso",
+    "count": 4
+  }
+}

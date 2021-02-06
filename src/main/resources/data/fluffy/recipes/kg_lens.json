@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "x  ",
+    " x ",
+    "x  "
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "fluffy:kgorski"
+    }
+  },
+  "result":
+  {
+    "item": "fluffy:kg_lens",
+    "count": 1
+  }
+}
